@@ -452,8 +452,12 @@ footer {
         height: 200px;
         margin: 500px auto 0px;
         padding-left: 25px;
-        text-align: center;
     }
+
+    .facts>p {
+        width: 100%;
+    }
+
 
     /* -----Statistics----- */
 
