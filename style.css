@@ -231,3 +231,47 @@
 .stat-box>p {
     font-size: 14px;
 }
+
+/* -----Sponsors Section----- */
+
+.sponsors {
+
+    width: 500px;
+    height: 200px;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+.sponsors>h3 {
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.sponsors-icon {
+    display: flex;
+    width: 1000px;
+    margin: 0px auto 50px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sponsors-icon>img {
+    width: 100px;
+    height: 30px;
+}
+
+/* -----Footer Section----- */
+
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1000px;
+    height: 80px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
