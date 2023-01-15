@@ -111,7 +111,6 @@
 }
 
 .quick-list-desc>p {
-    /* font-size: 14px; */
     margin-bottom: 20px;
 }
 
@@ -123,7 +122,6 @@
 }
 
 .features {
-    /* background-color: #FF900E; */
     width: 1100px;
     height: 800px;
     margin: 50px auto;
@@ -133,7 +131,6 @@
 }
 
 .feature-list {
-    /* background-color: aqua; */
     width: 500px;
     height: 800px;
     padding-left: 20px;
@@ -146,7 +143,6 @@
     padding-left: 20px;
     margin-bottom: 20px;
     border-left: 5px solid #FF900E;
-
 }
 
 .feature-desc>p {
@@ -154,7 +150,6 @@
 }
 
 .feature-box-details {
-    /* background-color: beige; */
     margin-bottom: 10px;
     width: 440px;
     height: 90px;
@@ -342,8 +337,6 @@ footer {
         margin-bottom: 10px;
     }
 
-    
-
     .first-sec-heading>h1 {
         font-weight: 590;
         font-size: 35px;
@@ -376,7 +369,6 @@ footer {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        /* margin-top: 400px; */
     }
 
     .quick-list-img>img {
@@ -406,13 +398,11 @@ footer {
 
     .feature-and-button {
         width: 100%;
-        /* height: 800px; */
         margin-top: 500px;
-        /* background-color: #FF900E; */
     }
 
     .features {
-        /* background-color:  red;  */
+        
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -421,7 +411,7 @@ footer {
     }
 
     .feature-list {
-        /* background-color: aqua;  */
+     
         width: 100%;
         height: 800px;
         padding-left: 20px;
@@ -430,25 +420,20 @@ footer {
 
     .feature-desc>h3 {
         font-weight: 700;
-        font-size: 35px;
-        /* width: 300px; */
+        font-size: 35px;      
         padding-left: 20px;
         margin-bottom: 20px;
         border-left: 5px solid #FF900E;
-
-
     }
 
     .feature-desc>p {
         margin-bottom: 20px;
     }
 
-    .feature-box-details {
-        /* background-color: beige; */
+    .feature-box-details {      
         margin-bottom: 10px;
         width: 80%;
         margin: 0;
-
     }
 
     .feature-img {
@@ -460,7 +445,8 @@ footer {
         height: 500px;
         margin-top: 20px;
     }
-
+    
+    /* -----Some Facts----- */
     .facts {
         width: 100%;
         height: 200px;
@@ -468,6 +454,8 @@ footer {
         padding-left: 25px;
         text-align: center;
     }
+
+    /* -----Statistics----- */
 
     .statistics {
         width: 100%;
@@ -478,11 +466,11 @@ footer {
         margin-bottom: 30px;
     }
 
+    /* -----Sponsors----- */
+
     .sponsors {
         width: 100%;
     }
-
-
 
     .sponsors-icon {
         display: flex;
@@ -496,18 +484,16 @@ footer {
         margin-bottom: 20px;
     }
 
+    /* -----Footer----- */
+
     footer {
         width: 100%;
         text-align: center;
     }
 
-
     .special-button,
     .button-container {
         display: none;
     }
-
-
-
 
 }
